@@ -97,9 +97,9 @@ public class MainWindow extends JFrame {
         // hint
         JLabel hint = new JLabel("<html><body style='width:420px'>"
                 + "1) Selecciona tipo y captura datos<br/>"
-                + "2) Inicia cámara y captura foto<br/>"
+                + "2) Inicia camara y captura foto<br/>"
                 + "3) Vista previa<br/>"
-                + "4) Imprimir (driver ZC300 en dúplex)<br/>"
+                + "4) Imprimir (driver ZC300 en duplex)<br/>"
                 + "</body></html>");
         hint.setForeground(new Color(80,80,80));
 
@@ -110,10 +110,13 @@ public class MainWindow extends JFrame {
     }
 
     private JPanel buildActionsPanel() {
+
         JButton btnPreview = new JButton("Vista previa");
         JButton btnPrint = new JButton("Imprimir (2 lados)");
         JButton btnClear = new JButton("Limpiar");
-        JButton btnStopCam = new JButton("Detener cámara");
+        JButton btnStopCam = new JButton("Detener camara");
+
+
 
         btnPreview.addActionListener(e -> doPreview());
         btnPrint.addActionListener(e -> doPrint());
@@ -125,6 +128,7 @@ public class MainWindow extends JFrame {
         p.add(btnClear);
         p.add(btnPreview);
         p.add(btnPrint);
+
         return p;
     }
 
@@ -175,7 +179,7 @@ public class MainWindow extends JFrame {
             BufferedImage back = renderer.renderBack(d);
 
             printer.printBothSides(front, back);
-            JOptionPane.showMessageDialog(this, "Enviado a impresión (front + back).");
+            JOptionPane.showMessageDialog(this, "Enviado a impresion (front + back).");
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(this, "Error imprimir: " + ex.getMessage()
                     + "\n\nTip: verifica driver Zebra en modo dúplex y el nombre en layout.json");

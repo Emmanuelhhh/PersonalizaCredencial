@@ -11,8 +11,8 @@
       "back": {
         "photo": { "x": 68, "y": 291, "w": 282, "h": 291 },
         "fields": {
-          "nombre": { "x": 420, "y": 345, "maxW": 520, "fontSize": 24, "bold": true },
-          "curp":   { "x": 420, "y": 450, "maxW": 520, "fontSize": 22, "bold": false }
+          "nombre": { "x": 420, "y": 365, "maxW": 520, "fontSize": 25, "bold": false },
+          "curp":   { "x": 420, "y": 470, "maxW": 520, "fontSize": 25, "bold": false }
         }
       }
     },
@@ -22,9 +22,9 @@
       "back": {
         "photo": { "x": 68, "y": 291, "w": 282, "h": 291 },
         "fields": {
-          "nombre":   { "x": 420, "y": 345, "maxW": 520, "fontSize": 24, "bold": true },
-          "curp":     { "x": 420, "y": 450, "maxW": 520, "fontSize": 22, "bold": false },
-          "contacto": { "x": 420, "y": 555, "maxW": 520, "fontSize": 22, "bold": false }
+          "nombre":   { "x": 420, "y": 365, "maxW": 520, "fontSize": 25, "bold": false },
+          "curp":     { "x": 470, "y": 435, "maxW": 520, "fontSize": 25, "bold": false },
+          "contacto": { "x": 420, "y": 530, "maxW": 520, "fontSize": 25, "bold": false }
         }
       }
     },
@@ -34,10 +34,10 @@
       "back": {
         "photo": { "x": 68, "y": 291, "w": 282, "h": 291 },
         "fields": {
-          "nombre":       { "x": 420, "y": 320, "maxW": 520, "fontSize": 24, "bold": true },
-          "curp":         { "x": 420, "y": 405, "maxW": 520, "fontSize": 22, "bold": false },
-          "discapacidad": { "x": 420, "y": 500, "maxW": 520, "fontSize": 22, "bold": false },
-          "contacto":     { "x": 420, "y": 590, "maxW": 520, "fontSize": 22, "bold": false }
+          "nombre":       { "x": 420, "y": 340, "maxW": 520, "fontSize": 25, "bold": false },
+          "curp":         { "x": 495, "y": 387, "maxW": 520, "fontSize": 25, "bold": false },
+          "discapacidad": { "x": 420, "y": 492, "maxW": 520, "fontSize": 25, "bold": false },
+          "contacto":     { "x": 420, "y": 578, "maxW": 520, "fontSize": 25, "bold": false }
         }
       }
     }
