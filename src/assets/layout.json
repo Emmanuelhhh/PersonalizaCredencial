@@ -1,0 +1,45 @@
+{
+  "card": { "w": 1004, "h": 650, "orientation": "LANDSCAPE" },
+  "print": {
+    "printerNameContains": "Zebra ZC300",
+    "backRotateDeg": 0
+  },
+  "types": {
+    "ESTUDIANTE": {
+      "frontPath": "src/assets/estudiante/front.png",
+      "backPath": "src/assets/estudiante/back.png",
+      "back": {
+        "photo": { "x": 68, "y": 291, "w": 282, "h": 291 },
+        "fields": {
+          "nombre": { "x": 420, "y": 345, "maxW": 520, "fontSize": 24, "bold": true },
+          "curp":   { "x": 420, "y": 450, "maxW": 520, "fontSize": 22, "bold": false }
+        }
+      }
+    },
+    "ADULTO_MAYOR": {
+      "frontPath": "src/assets/adulto_mayor/front.png",
+      "backPath": "src/assets/adulto_mayor/back.png",
+      "back": {
+        "photo": { "x": 68, "y": 291, "w": 282, "h": 291 },
+        "fields": {
+          "nombre":   { "x": 420, "y": 345, "maxW": 520, "fontSize": 24, "bold": true },
+          "curp":     { "x": 420, "y": 450, "maxW": 520, "fontSize": 22, "bold": false },
+          "contacto": { "x": 420, "y": 555, "maxW": 520, "fontSize": 22, "bold": false }
+        }
+      }
+    },
+    "DISCAPACIDAD": {
+      "frontPath": "src/assets/discapacidad/front.png",
+      "backPath": "src/assets/discapacidad/back.png",
+      "back": {
+        "photo": { "x": 68, "y": 291, "w": 282, "h": 291 },
+        "fields": {
+          "nombre":       { "x": 420, "y": 320, "maxW": 520, "fontSize": 24, "bold": true },
+          "curp":         { "x": 420, "y": 405, "maxW": 520, "fontSize": 22, "bold": false },
+          "discapacidad": { "x": 420, "y": 500, "maxW": 520, "fontSize": 22, "bold": false },
+          "contacto":     { "x": 420, "y": 590, "maxW": 520, "fontSize": 22, "bold": false }
+        }
+      }
+    }
+  }
+}
